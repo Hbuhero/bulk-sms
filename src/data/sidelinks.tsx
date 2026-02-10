@@ -35,6 +35,24 @@ export const sidelinks: SideLink[] = [
         icon: <Users size={18} />,
     },
     {
+        title: 'Sender IDs',
+        label: 'core',
+        href: '/dashboard/sender-id',
+        icon: <MessageSquare size={18} />,
+    },
+    {
+        title: 'Transactions',
+        label: 'core',
+        href: '/dashboard/transactions',
+        icon: <CreditCard size={18} />,
+    },
+    {
+        title: 'Tariffs',
+        label: 'core',
+        href: '/dashboard/tariffs',
+        icon: <BarChart3 size={18} />,
+    },
+    {
         title: 'Send Messages',
         label: 'messaging',
         href: '/dashboard/send-sms',
@@ -92,12 +110,7 @@ export const sidelinks: SideLink[] = [
         href: '/dashboard/contacts',
         icon: <Users size={18} />,
     },
-    {
-        title: 'Sender IDs',
-        label: 'core',
-        href: '/dashboard/sender-id',
-        icon: <MessageSquare size={18} />,
-    },
+    
     {
         title: 'Campaigns',
         label: 'campaigns',
@@ -118,18 +131,7 @@ export const sidelinks: SideLink[] = [
             },
         ],
     },
-    {
-        title: 'Transactions',
-        label: 'core',
-        href: '/dashboard/transactions',
-        icon: <CreditCard size={18} />,
-    },
-    {
-        title: 'Tariffs',
-        label: 'core',
-        href: '/dashboard/tariffs',
-        icon: <BarChart3 size={18} />,
-    },
+    
     {
         title: 'Reports',
         label: 'core',
